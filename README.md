@@ -27,3 +27,6 @@
     #! C:/Users/alex/AppData/Local/Programs/Python/Python310/python.exe
 
 Этот пример гаранированно работает в XAMPP Version 7.4.27 с Python 3.10.
+
+# practPythonApache/noFileOut
+Проект повторяет practPythonApache, но без создания временного файла out.html
