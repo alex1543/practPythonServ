@@ -12,3 +12,14 @@
 2) потом устновить C:\Users\alex\AppData\Local\Programs\Python\Python310\Scripts\pip install mysql-connector
 
 Для работы с таблицей из базы данных, необходимо экспортировать файл import_test.sql в phpMyAdmin.
+
+# practPythonApache
+Дополнительно есть возможность работы скрипта через Apache. Для этого необходимо:
+
+1) найти секцию < IfModule mime_module > в файле httpd.conf и добавить две строки:
+AddHandler cgi-script .py
+ScriptInterpreterSource Registry-Strict
+2) исправить в файле practPythonApache/index.py путь к Python. Например, так:
+#! C:/Users/alex/AppData/Local/Programs/Python/Python310/python.exe
+
+Этот пример гаранированно работает в XAMPP Version 7.4.27 с подключенным Python 3.10.
