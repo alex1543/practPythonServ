@@ -26,4 +26,4 @@
 
     #! C:/Users/alex/AppData/Local/Programs/Python/Python310/python.exe
 
-Этот пример гаранированно работает в XAMPP Version 7.4.27 с подключенным Python 3.10.
+Этот пример гаранированно работает в XAMPP Version 7.4.27 с Python 3.10.
