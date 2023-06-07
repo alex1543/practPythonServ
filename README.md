@@ -30,3 +30,16 @@
 
 # practPythonApache/noFileOut
 Проект повторяет practPythonApache, но без создания временного файла out.html
+
+# practPythonServ/mac
+Возможна работа на macOS. Нужно установить XAMPP, например, из файла: xampp-osx-8.2.4-0-installer.dmg
+
+Запустить MySQL Database на вкладке Manage Servers, настроить открытие файлов *.sh через программу Терминал, разрешить права на запуск: chmod +x mac_serv.sh
+
+Внешний вид сайта на macOS Ventura 13.4:
+
+<img width="1147" alt="mac" src="https://github.com/alex1543/practPythonServ/assets/10297748/17560fc7-bf76-4103-b388-e3ab135728f4">
+
+После установки Python (например, python-3.11.3-macos11.pkg), необходимо выполнить команды:
+1) python3 -m ensurepip
+2) pip3 install mysql-connector
