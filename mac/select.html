@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Как можно работать с таблицами в MySQL на Python с http.server</title>
+    </head>
+	<style>
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+table {
+	width: 93%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+tr:nth-child(odd) { 
+	background: #79a9d4; 
+}
+tr:nth-child(even) { 
+	background: #5491c7; 
+}
+tr:first-child { 
+	background: #356d9c;
+	font-weight: bold;
+}
+tr {
+	opacity: 0.77;
+}
+tr:nth-child(n+2):hover {
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	background: #3a77ae;
+}
+td {
+	padding: 5px;
+    position: relative;
+    border: 1px solid #333;
+    height: 20px;
+}
+td:first-child {
+	width: 35px;
+	text-align: center;
+}
+h1, h1 a, h1 a:visited {
+	color: #3a77ae;
+    background: #fff;
+	font-size: 30px;
+	font-family: Roboto, Geneva, Arial, Helvetica, sans-serif;
+}
+h1 a:hover {
+	color: #5491c7;
+}
+a {
+	text-decoration: none;
+}
+label {
+	font-size: 16px;
+	text-decoration: underline;
+	margin-left: 5px;
+}
+div {
+	display: contents;
+    font-size: 21px;
+    font-weight: bold;
+}
+input[type="submit"] {
+	cursor: pointer;
+}
+input[type="text"] {
+	font-style: italic;
+}
+	</style>
+    <script>
+      function submitForm() {
+        const frm = document.getElementById("submit");
+        frm.submit(); // Submit the form
+        frm.reset();  // Reset all form data
+        return true; // Prevent page refresh
+      }
+    </script>
+    <body>
+        <h1><a href=".">Как можно работать с таблицами в MySQL на Python с http.server</a></h1>
+        <form action="form.html" method="get">
+			<input type="hidden" name="col0" value="ok" />
+            <label>Значение</label><div> 1: </div><input type="text" name="col1" placeholder="Первый параметр..." />
+            <label>Значение</label><div> 2: </div><input type="text" name="col2" placeholder="Второй параметр..." />
+            <label>Значение</label><div> 3: </div><input type="text" name="col3" placeholder="Третий параметр..." />
+            <input id="submit" type="submit" value="Добавить" onclick="submitForm()" />
+        </form>
+		<br />
+		<table>
+@tr
+		</table>
+		<p>Версия базы данных: 
+			<b>
+@ver
+			</b>
+		</p>
+		
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="67px" height="68px" viewBox="0 0 67 68" enable-background="new 0 0 67 68" xml:space="preserve">  <image id="image0" width="67" height="68" x="0" y="0"
+    href="data:image/png;base64,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" />
+</svg>
+
+    </body>
+</html>

@@ -1,0 +1,4 @@
+Скрипт гарантировано выполняется в macOS при выполнении команд:
+
+1) python3 -m ensurepip
+2) pip3 install mysql-connector
