@@ -40,6 +40,11 @@
 
 <img width="1147" alt="mac" src="https://github.com/alex1543/practPythonServ/assets/10297748/17560fc7-bf76-4103-b388-e3ab135728f4">
 
-После установки Python (например, python-3.11.3-macos11.pkg), необходимо выполнить команды:
+
+    После установки Python (например, python-3.11.3-macos11.pkg), необходимо выполнить команды:
 1) python3 -m ensurepip
 2) pip3 install mysql-connector
+
+В родном браузере Safari 16.5:
+
+<img width="1283" alt="Снимок экрана 2023-06-07 в 22 49 06" src="https://github.com/alex1543/practPythonServ/assets/10297748/f9456bac-62af-4207-bda0-ba0730a12925">
