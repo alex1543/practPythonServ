@@ -19,6 +19,7 @@
 1) найти секцию < IfModule mime_module > в файле httpd.conf и добавить две строки:
 
     AddHandler cgi-script .py
+    
     ScriptInterpreterSource Registry-Strict
 
 2) исправить в файле practPythonApache/index.py путь к Python. Например, так:
