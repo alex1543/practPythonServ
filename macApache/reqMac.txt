@@ -1,0 +1,7 @@
+Этот пример гарантировано работает в XAMPP 8.2.4-0 под macOS с подключенным Python 3.11 в каталог:
+/Library/Frameworks/Python.framework/Versions/3.11/bin/python3
+
+Для подключения интерпретатора Python к web-серверу Apache,
+необходимо отредактировать параметры в файле httpd.conf и добавить две строки:
+AddHandler cgi-script .py
+DirectoryIndex index.py
