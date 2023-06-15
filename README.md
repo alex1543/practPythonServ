@@ -48,3 +48,15 @@
 В родном браузере Safari 16.5:
 
 <img width="1283" alt="Снимок экрана 2023-06-07 в 22 49 06" src="https://github.com/alex1543/practPythonServ/assets/10297748/f9456bac-62af-4207-bda0-ba0730a12925">
+
+# practPythonServ/macApache
+Допустима работа скрипта через Apache. Этот пример гарантировано работает в XAMPP 8.2.4-0 под macOS с подключенным Python 3.11 в каталог:
+/Library/Frameworks/Python.framework/Versions/3.11/bin/python3
+
+Для подключения интерпретатора Python к web-серверу Apache,
+необходимо отредактировать параметры в файле httpd.conf и добавить две строки:
+
+    AddHandler cgi-script .py
+    DirectoryIndex index.py
+
+
